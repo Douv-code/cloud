@@ -1,0 +1,41 @@
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 250px;   
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #343a40;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            padding: 10px 10px 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #ddd;
+            display: block;
+            transition: transform cubic-bezier(0.22, 0.61, 0.36, 1) 0.3s;
+        }
+
+        .sidebar a:hover {
+            color: #f8f9fa;
+            transform: translate(15%);
+
+        }
+
+        .main-content {
+            margin-left: 250px;
+            padding: 15px;
+        }
+
+        .container {
+            margin-top: 50px;
+        }
+    
